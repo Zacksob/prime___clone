@@ -1,0 +1,29 @@
+@use 'variables';
+@use 'header';
+@use 'hero';
+
+@font-face {
+    font-family: Amazon Ember;
+    src: url(../../assets/fonts/amazon_typography_all_5e593ec/all/AmazonEmber-Md.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    color: variables.$primary;
+    font-family: Amazon Ember,sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: variables.$backgroundBody;
+}
+
